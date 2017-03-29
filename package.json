@@ -1,0 +1,30 @@
+{
+  "name": "service",
+  "version": "1.0.0",
+  "description": "Serviço para receber dados do mapcrud",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/MSLacerda/service.git"
+  },
+  "keywords": [
+    "Service",
+    "mapCrud",
+    "tree",
+    "Crud"
+  ],
+  "author": "Matheus Soares, João Willamy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MSLacerda/service/issues"
+  },
+  "homepage": "https://github.com/MSLacerda/service#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "mongoose": "^4.9.2"
+  }
+}
